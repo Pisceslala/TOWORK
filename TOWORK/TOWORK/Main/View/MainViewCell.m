@@ -21,7 +21,7 @@
     [super awakeFromNib];
     
     self.layer.masksToBounds = YES;
-    self.layer.cornerRadius = 12;
+    self.layer.cornerRadius = 10;
     
     self.iconImageView.layer.masksToBounds = YES;
     self.iconImageView.layer.cornerRadius = self.iconImageView.JYD_Width / 2;
