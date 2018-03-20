@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233AF98A20613A7500AF210F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AF98920613A7500AF210F /* DetailViewController.m */; };
 		239E138F1FEA4E2E0049AB7D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239E138E1FEA4E2E0049AB7D /* MainViewController.m */; };
 		239E13951FEA509F0049AB7D /* UIView+JYDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 239E13931FEA509F0049AB7D /* UIView+JYDFrame.m */; };
 		239E13961FEA509F0049AB7D /* UIView+JYDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 239E13931FEA509F0049AB7D /* UIView+JYDFrame.m */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233AF98820613A7500AF210F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		233AF98920613A7500AF210F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		239E138D1FEA4E2E0049AB7D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		239E138E1FEA4E2E0049AB7D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		239E13911FEA4FD10049AB7D /* ToWorkHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToWorkHeader.pch; sourceTree = "<group>"; };
@@ -112,6 +115,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		233AF98520613A0400AF210F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				239E139A1FEA56780049AB7D /* View */,
+				239E13991FEA56720049AB7D /* Model */,
+				239E13981FEA56610049AB7D /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		233AF98620613A3000AF210F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				233AF98720613A5600AF210F /* Controller */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		233AF98720613A5600AF210F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				233AF98820613A7500AF210F /* DetailViewController.h */,
+				233AF98920613A7500AF210F /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		239E138A1FEA4DA40049AB7D /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,9 +166,8 @@
 		239E138C1FEA4E130049AB7D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				239E139A1FEA56780049AB7D /* View */,
-				239E13991FEA56720049AB7D /* Model */,
-				239E13981FEA56610049AB7D /* Controller */,
+				233AF98620613A3000AF210F /* Detail */,
+				233AF98520613A0400AF210F /* Home */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -437,6 +466,7 @@
 				239E139D1FEA56A90049AB7D /* MainHeaderView.m in Sources */,
 				23A90D581FE8EA8E000A576A /* TOWORK.xcdatamodeld in Sources */,
 				239E13951FEA509F0049AB7D /* UIView+JYDFrame.m in Sources */,
+				233AF98A20613A7500AF210F /* DetailViewController.m in Sources */,
 				23A90D601FE8EA8E000A576A /* main.m in Sources */,
 				239E13A31FEA65E20049AB7D /* MainViewCell.m in Sources */,
 				23A90D4F1FE8EA8D000A576A /* AppDelegate.m in Sources */,
